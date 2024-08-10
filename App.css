@@ -1,0 +1,48 @@
+body {
+  background-color: #fff;
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+.container{
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20;
+}
+
+.header {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.list {
+  display: grid;
+  grid-template-columns: repeat(auto, 1fr);
+  gap: 20px;
+}
+
+.card {
+  padding: 10px;
+  border-radius: 4px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(201, 142, 142, 0.555);
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  box-shadow: 0 0 10px rgba(223, 94, 94, 0.822);
+  background-color: rgba(119, 95, 228, 0.247);
+  transform: scale(1.05);
+}
+
+.card h2 {
+  margin: 0;
+  font-size: 1.5em;
+}
+
+.card p {
+  margin: 5px 0;
+}
